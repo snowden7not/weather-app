@@ -156,6 +156,12 @@ h1 {
     margin-top: 2rem;
 }
 
+@media (max-width: 768px) {
+    .parameter-container {
+      flex-direction: column;
+    }
+}
+
 .parameter{
     width:30%;
     max-width:200px;

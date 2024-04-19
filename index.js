@@ -37,6 +37,8 @@ userTab.addEventListener("click", () => {
 
 searchTab.addEventListener("click", () => {
     switchTab(searchTab);
+    var textField = document.getElementById("foc");
+    textField.focus();
 });
 
 //check if cordinates are already present in session storage
